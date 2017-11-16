@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here-->
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here
+xml stands for extensible markup language
+it is a background code layouts,widges etc-->
 <!--constraint layout is one of the types of layout
 layout_width indicates the width of the constraint layout
 layout_Height indicates the height of the constraint layout

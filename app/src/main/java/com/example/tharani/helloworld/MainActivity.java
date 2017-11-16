@@ -1,5 +1,5 @@
-package com.example.tharani.helloworld;/**/
-/*libraries imported for writing the code
+package com.example.tharani.helloworld;
+/*import is libraries imported for writing the code
 * AppCompatActivity is base class for activities
 * Bundle handles the orientation of the activity
 */
