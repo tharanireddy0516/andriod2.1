@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--xml layer starts here-->
+<!--constraint layout is one of the types of layout
+layout_width indicates the width of the constraint layout
+layout_Height indicates the height of the constraint layout
+context indicates the package name of the respective java class
+-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharani.helloworld.MainActivity">
+
+    <!--TextView is one of component of palette to display anything on layout
+    width indicates the width of the TextView
+    Height indicates the height of the TextView
+    what ever we write in text it displays in output
+    TextSize indicates the size of the text in sp units
+    TextColor indicates the color of text
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="40sp"
+        android:textColor="#d12020"/>
+
+</android.support.constraint.ConstraintLayout><!--end of constraint layout-->
